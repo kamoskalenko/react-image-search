@@ -1,0 +1,12 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: -8px;
+  padding: 0;
+}
+
+.item {
+  flex-basis: calc(33.333% - 16px);
+  margin: 8px;
+}
